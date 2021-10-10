@@ -11,7 +11,7 @@ if (sys == "Windows"):
 
 
 # Path to save the image
-img_path = "C:/Users/acer/Pictures/GOES_Actual.jpg"
+img_path = "your/path/to/save/the/image.jpg"
 
 # URL to download the image from
 url = "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/5424x5424.jpg"
