@@ -44,8 +44,10 @@ def main():
                 set_wallpaper()
                 print("Image succesfully downloaded and set.")
                 break
-            except:
+            except Exception as e:
                 # Seconds to retry the download
+                print("Download failed")
+                print(e)
                 sleep(10)
         sleep(min_update * 60)
 
